@@ -4,6 +4,7 @@
 	"license": "MIT",
 	"displayName": "Karmchenki Select-Under",
 	"description": "select next or previous occurrence of first or last selection (or word under first / last caret) with or without dropping the current selection",
+	"repository": "https://github.com/vistuleB/karmchenki-select-under",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.46.0"
@@ -12,7 +13,7 @@
 		"Other"
 	],
 	"activationEvents": [
-		"*"
+		"onStartupFinished"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
